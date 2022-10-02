@@ -3,9 +3,9 @@ import vue from '@vitejs/plugin-vue'
 import vuetify from "vite-plugin-vuetify";
 
 export default defineConfig({
-  base: "/verwaltung/",
+  base: "/login/",
   server: {
-    port: 3001,
+    port: 3002,
   },
   plugins: [
     vue(),
