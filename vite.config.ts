@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vuetify from "vite-plugin-vuetify";
+import inspect from "vite-plugin-inspect";
 
 export default defineConfig({
   base: "/login/",
@@ -8,6 +9,7 @@ export default defineConfig({
     port: 3002,
   },
   plugins: [
+    inspect(),
     vue(),
     vuetify({
       styles: {
